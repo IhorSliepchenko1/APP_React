@@ -7,14 +7,14 @@ export default function App() {
   return (
     <div className="sign-in">
       <div className="sign-in__info">
-      <Logo />
+        <Logo />
         <Form />
         <Copyright />
       </div>
 
       <div className="sign-in__bg">
-      <Background />
+        <Background src="bg.png" alt="bg" />
       </div>
     </div>
   );
-};
+}

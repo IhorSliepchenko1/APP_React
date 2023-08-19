@@ -1,0 +1,39 @@
+.forms {
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  display: block;
+
+  &__title {
+    color: #344054;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  &__input-wrapper {
+    position: relative;
+  }
+
+  &__input-svg {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    span{
+      display: flex;
+    }
+  }
+
+  &__input {
+    margin-top: 8px;
+    height: 44px;
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid #d0d5dd;
+    padding: 10px 14px;
+    background: transparent;
+  }
+}

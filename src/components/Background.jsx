@@ -1,3 +1,3 @@
-export default function Background() {
-  return <img src="bg.png" alt="bg" />;
+export default function Background({ src, alt }) {
+  return <img src={src} alt={alt} />;
 }

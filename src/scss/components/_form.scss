@@ -27,75 +27,7 @@
     margin-bottom: 56px;
   }
 }
-.forms {
-  &:not(:last-child) {
-    margin-bottom: 20px;
-  }
-  display: block;
 
-  &__title {
-    color: #344054;
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-  }
 
-  &__input {
-    margin-top: 8px;
-    height: 44px;
-    width: 100%;
-    display: block;
-    border-radius: 8px;
-    border: 1px solid #d0d5dd;
-    padding: 10px 14px;
-    background: transparent;
-  }
-}
 
-.chk {
-  display: inline-flex;
-  gap: 8px;
 
-  span {
-    color: #344054;
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-  }
-}
-
-.btn {
-  display: inline-flex;
-  width: 100%;
-  bottom: 0;
-  outline: 0;
-  cursor: pointer;
-  border-radius: 8px;
-  justify-content: center;
-  align-items: center;
-
-  &._primary {
-    background: #5429ff;
-    color: #fff;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    border: 0;
-    padding: 12px 154px;
-  }
-
-  &._secondary {
-    border: 1px solid #d0d5dd;
-    color: #344054;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    background: transparent;
-    padding: 10px 90px;
-  }
-}
