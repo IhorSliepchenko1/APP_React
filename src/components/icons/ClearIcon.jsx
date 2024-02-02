@@ -18,13 +18,13 @@ export const ClearIcon = () => {
       <path
         d="M11.7946 7.00214L7.00256 11.7941"
         stroke="#667085"
-        sstrokeLinecap="round"
+        strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M11.796 11.797L7 7"
         stroke="#667085"
-        sstrokeLinecap="round"
+        strokeLinecap="round"
         strokeLinejoin="round"
       />
     </svg>
